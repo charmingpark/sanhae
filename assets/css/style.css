@@ -1,0 +1,14 @@
+/* reset */
+* {margin: 0; padding: 0; font-size: 16px;}
+a {color: #333; text-decoration: none;}
+li {list-style: none;}
+.clearfix::before, .clearfix::after {content: ''; display: block; clear: both;}
+
+/* warp */
+#warp {width: 1462px; margin: 0 auto;}
+
+/* header */
+header h1 {text-align: center; padding: 30px 0; display:block;}
+header h1 img {width: 150px; }
+.icons_btn {display: block;  padding: 0px 0px; z-index: inherit;}
+.icons_btn .icons {}
